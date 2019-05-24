@@ -1,0 +1,43 @@
+.title {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 8px 20px;
+    color: rgba(0, 0, 0, 0.54);
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.title-spacer {
+    flex: 1 1 auto;
+}
+
+.border-list {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin-left: 20px;
+}
+
+mat-icon {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+mat-list-option {
+    cursor: pointer;
+}
+
+p {
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+code {
+    padding: 3px 6px;
+    font-size: 90%;
+    font-family: 'Lucida Grande';
+    background: rgba(0, 0, 0, 0.03);
+}
+
+::ng-deep.mat-pseudo-checkbox{
+    display: none !important;
+}
